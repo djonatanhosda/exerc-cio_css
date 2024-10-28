@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box; /* controla layout de página*/
+    margin: 0; /*margem*/
+    padding: 0; /*espaçamento*/
+}
+/*h1{} selecionar a tag colocar somente o nome da tag exemplo:h1
+#Tecnologia h2{} selcionar um item apartir de seu ID usa # 
+.creation-date{} /*selcionar um item apartir de sua class usa ponto*/
+
+body > header {
+    background-color: #383232;
+    padding: 16px 0;
+    color: beige;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+} /*propriedade display configuro o modo de como será exibido*/
+
+header li a {
+    color: beige;
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+} /* width: largura; margin: margem*/
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} /* flex-wrap para criar nova linha; justify-content serve para dividir espaços que sobraram entre toda a pagina*/
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+} /*height: altura; */
+
+.articles article {
+    width: 30%;    
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 8px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}/* margin-top epaçamento do titulo; margin- bottom espaço da margem inferior*/
+
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+} /*backgrand uso para sublinhar o link e criar um botão*/
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#Tecnologia {
+    background-color:#dba8f062;
+}
+
+#Tecnologia .articles a {
+    background-color: blueviolet;
+}
+
+#Vagas_de_Trabalho {
+    background-color: rgba(134, 182, 224, 0.37);
+}
+
+#Vagas_de_Trabalho a {
+    background-color: rgb(11, 11, 80);
+}
+
+.Processador_quantico {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens de noticia desçam para novas linhas*/
+    gap: 20px; /* Espaçamento entre os blocos */
+}
+
+.Processador_quantico {
+    flex: 1 1 30%; /* ajusta o tamanho dos blocos e permite qe eles se ajustem de acordo com o espaço disponivel */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #8d49a862;
+    border-radius: 5px;
+}
+
+.receita-federal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.receita-federal {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #8d49a862;
+    border-radius: 5px;
+}
+
+.Novo_telescópio_da_nasa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Novo_telescópio_da_nasa{
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #8d49a862;
+    border-radius: 5px;
+}
+
+.Robô_Tesla {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Robô_Tesla {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #8d49a862;
+    border-radius: 5px;
+}
+
+.Meta_AI {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Meta_AI {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #8d49a862;
+    border-radius: 5px;
+}
+
+.Vagas_de_Trabalho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Vagas_de_Trabalho {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgba(12, 78, 134, 0.37);
+    border-radius: 5px;
+}
+
+.Dicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Dicas {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgba(12, 78, 134, 0.37);
+    border-radius: 5px;
+}
+
+.Home-office {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Home-office {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgba(12, 78, 134, 0.37);
+    border-radius: 5px;
+}
+
+.Lazer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Lazer {
+    flex: 1 1 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgba(12, 78, 134, 0.37);
+    border-radius: 5px;
+}
